@@ -30,3 +30,6 @@ zuul:
     svcb-service:
       path: /svcb/**
       sensitiveHeaders:
+    admin-service:
+      path: /admin/**
+      serviceId: /bqss-admin-service
